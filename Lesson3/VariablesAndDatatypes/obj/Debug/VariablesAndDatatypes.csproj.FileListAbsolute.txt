@@ -1,0 +1,9 @@
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson3\VariablesAndDatatypes\bin\Debug\VariablesAndDatatypes.exe.config
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson3\VariablesAndDatatypes\bin\Debug\VariablesAndDatatypes.exe
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson3\VariablesAndDatatypes\bin\Debug\VariablesAndDatatypes.pdb
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson3\VariablesAndDatatypes\obj\Debug\VariablesAndDatatypes.csprojResolveAssemblyReference.cache
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson3\VariablesAndDatatypes\obj\Debug\VariablesAndDatatypes.Form1.resources
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson3\VariablesAndDatatypes\obj\Debug\VariablesAndDatatypes.Properties.Resources.resources
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson3\VariablesAndDatatypes\obj\Debug\VariablesAndDatatypes.csproj.GenerateResource.Cache
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson3\VariablesAndDatatypes\obj\Debug\VariablesAndDatatypes.exe
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson3\VariablesAndDatatypes\obj\Debug\VariablesAndDatatypes.pdb

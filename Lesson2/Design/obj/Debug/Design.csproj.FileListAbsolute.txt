@@ -1,0 +1,9 @@
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson2\Design\bin\Debug\Design.exe.config
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson2\Design\bin\Debug\Design.exe
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson2\Design\bin\Debug\Design.pdb
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson2\Design\obj\Debug\Design.Form1.resources
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson2\Design\obj\Debug\Design.Properties.Resources.resources
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson2\Design\obj\Debug\Design.csproj.GenerateResource.Cache
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson2\Design\obj\Debug\Design.exe
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson2\Design\obj\Debug\Design.pdb
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson2\Design\obj\Debug\Design.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson5\OOP\bin\Debug\OOP.exe.config
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson5\OOP\bin\Debug\OOP.exe
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson5\OOP\bin\Debug\OOP.pdb
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson5\OOP\obj\Debug\OOP.csprojResolveAssemblyReference.cache
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson5\OOP\obj\Debug\OOP.Form1.resources
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson5\OOP\obj\Debug\OOP.Properties.Resources.resources
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson5\OOP\obj\Debug\OOP.csproj.GenerateResource.Cache
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson5\OOP\obj\Debug\OOP.exe
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson5\OOP\obj\Debug\OOP.pdb
