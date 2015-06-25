@@ -14,7 +14,7 @@ namespace CourseBooking
     public partial class Form1 : Form
     {
         string[] text;
-        public List<string> textLinesList = new List<string>();
+        List<string> textLinesList = new List<string>();
         List<string> names = new List<string>();
 
         public Form1()
@@ -37,6 +37,7 @@ namespace CourseBooking
             }
 
             names = names.Distinct().ToList<String>();
+            listBox1.Items.Clear();
 
             foreach (string item in names)
             {
