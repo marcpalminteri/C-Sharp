@@ -24,25 +24,33 @@ namespace CourseBooking
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            text = File.ReadAllLines(@"C:\Users\blue6\Desktop\save.txt");
+            OpenFileDialog myDialog = new OpenFileDialog();
+            myDialog.Title = "Open file";
+            myDialog.Filter = "TXT files|*.txt";
+            myDialog.InitialDirectory = @"C:\Users\blue6\Desktop";
 
-            for (int i = 0; i < text.Length; i++)
-            {
-                text[i] = text[i].Trim('"');
+            if (myDialog.ShowDialog() == DialogResult.OK) { 
+                //text = File.ReadAllLines(@"C:\Users\blue6\Desktop\save.txt");
+                text = File.ReadAllLines(myDialog.FileName);
+
+                for (int i = 0; i < text.Length; i++)
+                {
+                    text[i] = text[i].Trim('"');
+                }
+
+                for (int i = 0; i < text.Length; i = i + 4)
+                {
+                    names.Add(text[i]);
+                }
+
+                names = names.Distinct().ToList<String>();
+                listBox1.Items.Clear();
+
+                foreach (string item in names)
+                {
+                    listBox1.Items.Add(item);
+                }
             }
-
-            for (int i = 0; i < text.Length; i = i + 4)
-            {
-                names.Add(text[i]);
-            }
-
-            names = names.Distinct().ToList<String>();
-            listBox1.Items.Clear();
-
-            foreach (string item in names)
-            {
-                listBox1.Items.Add(item);
-            }   
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -52,13 +60,9 @@ namespace CourseBooking
                 SeatPlan newForm = new SeatPlan(text, listBox1);
                 newForm.Show();
             }
-            else if (text == null)
-            {
-                MessageBox.Show("Unable to load course, no course file opened", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
             else
             {
-                MessageBox.Show("Unable to load course, no course selected", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Pick a course first idiot\nGawd", "Jesus Christ", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 

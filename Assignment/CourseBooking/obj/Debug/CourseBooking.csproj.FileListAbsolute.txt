@@ -7,3 +7,4 @@ C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Assignment\CourseBooking\obj\D
 C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Assignment\CourseBooking\obj\Debug\CourseBooking.csproj.GenerateResource.Cache
 C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Assignment\CourseBooking\obj\Debug\CourseBooking.exe
 C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Assignment\CourseBooking\obj\Debug\CourseBooking.pdb
+C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Assignment\CourseBooking\obj\Debug\CourseBooking.SeatPlan.resources
