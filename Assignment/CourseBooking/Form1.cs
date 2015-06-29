@@ -57,7 +57,7 @@ namespace CourseBooking
         {
             if (text != null && listBox1.SelectedIndex != -1)
             {
-                SeatPlan newForm = new SeatPlan(text, listBox1);
+                SeatPlan newForm = new SeatPlan(text, listBox1, names);
                 newForm.Show();
             }
             else

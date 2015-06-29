@@ -12,10 +12,8 @@ namespace CourseBooking
         Boolean check = false;
 
         public myBox()
-        {
+        { 
             this.Appearance = System.Windows.Forms.Appearance.Button;
-            this.Text = "h";
-            this.Name = "1";
             this.MinimumSize = new System.Drawing.Size(28, 23);
             this.MaximumSize = new System.Drawing.Size(28, 23);
             this.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -27,7 +25,7 @@ namespace CourseBooking
             if (check)
             {
                 check = false;
-                this.Text = "1";
+                this.Text = this.TabIndex.ToString();
                 this.BackColor = System.Drawing.SystemColors.Control;
             }
             else
