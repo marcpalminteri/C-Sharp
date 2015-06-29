@@ -34,7 +34,6 @@ namespace CourseBooking
                 this.Text = "B";
                 this.BackColor = System.Drawing.Color.Lime;
             }
-
         }
     }
 }
