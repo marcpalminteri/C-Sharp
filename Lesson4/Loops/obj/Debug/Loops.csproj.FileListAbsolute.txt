@@ -1,9 +1,0 @@
-C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson4\Loops\bin\Debug\Loops.exe.config
-C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson4\Loops\bin\Debug\Loops.exe
-C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson4\Loops\bin\Debug\Loops.pdb
-C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson4\Loops\obj\Debug\Loops.csprojResolveAssemblyReference.cache
-C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson4\Loops\obj\Debug\Loops.Properties.Resources.resources
-C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson4\Loops\obj\Debug\Loops.csproj.GenerateResource.Cache
-C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson4\Loops\obj\Debug\Loops.exe
-C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson4\Loops\obj\Debug\Loops.pdb
-C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson4\Loops\obj\Debug\Loops.Form1.resources

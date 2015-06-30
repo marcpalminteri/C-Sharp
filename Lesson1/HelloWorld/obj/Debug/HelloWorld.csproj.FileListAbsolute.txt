@@ -1,9 +1,0 @@
-C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson1\HelloWorld\bin\Debug\HelloWorld.exe.config
-C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson1\HelloWorld\bin\Debug\HelloWorld.exe
-C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson1\HelloWorld\bin\Debug\HelloWorld.pdb
-C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson1\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
-C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson1\HelloWorld\obj\Debug\HelloWorld.Form1.resources
-C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson1\HelloWorld\obj\Debug\HelloWorld.Properties.Resources.resources
-C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson1\HelloWorld\obj\Debug\HelloWorld.csproj.GenerateResource.Cache
-C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson1\HelloWorld\obj\Debug\HelloWorld.exe
-C:\Users\blue6\Documents\vsprojects\Csharp-Basics\Lesson1\HelloWorld\obj\Debug\HelloWorld.pdb
