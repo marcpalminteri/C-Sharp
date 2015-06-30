@@ -12,9 +12,16 @@ namespace CourseBooking
 {
     public partial class AddCourse : Form
     {
-        public AddCourse()
+        public AddCourse(string[] courseText)
         {
             InitializeComponent();
+        }
+
+        //int i = courseText.Length;
+        
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

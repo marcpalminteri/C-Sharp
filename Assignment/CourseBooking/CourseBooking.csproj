@@ -67,6 +67,9 @@
     <Compile Include="SeatPlan.Designer.cs">
       <DependentUpon>SeatPlan.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddCourse.resx">
+      <DependentUpon>AddCourse.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

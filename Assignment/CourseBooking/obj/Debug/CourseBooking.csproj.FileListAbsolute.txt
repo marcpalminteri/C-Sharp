@@ -18,3 +18,4 @@ C:\Users\blue9\Documents\vsprojects\Csharp-Basics\Assignment\CourseBooking\obj\D
 C:\Users\blue9\Documents\vsprojects\Csharp-Basics\Assignment\CourseBooking\obj\Debug\CourseBooking.Properties.Resources.resources
 C:\Users\blue9\Documents\vsprojects\Csharp-Basics\Assignment\CourseBooking\obj\Debug\CourseBooking.SeatPlan.resources
 C:\Users\blue9\Documents\vsprojects\Csharp-Basics\Assignment\CourseBooking\obj\Debug\CourseBooking.csproj.GenerateResource.Cache
+C:\Users\blue9\Documents\vsprojects\Csharp-Basics\Assignment\CourseBooking\obj\Debug\CourseBooking.AddCourse.resources

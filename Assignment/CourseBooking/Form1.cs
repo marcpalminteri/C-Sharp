@@ -62,13 +62,21 @@ namespace CourseBooking
             }
             else
             {
-                MessageBox.Show("Pick a course first idiot\nGawd", "Jesus Christ", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Pick a course first idiot\nGawd", "Jesus Christ Moneky Balls", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            if (text != null)
+            {
+                AddCourse newCourse = new AddCourse(text);
+                newCourse.Show();
+            }
+            else
+            {
+                MessageBox.Show("Open a file first you eejit", "Jesus Tapdancing Christ", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }

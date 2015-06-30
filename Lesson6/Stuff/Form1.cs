@@ -16,8 +16,7 @@ namespace Stuff
         string[] alphabetArray = {"A", "B", "C", "D", "E", "F", "G"};        
         double[] values = {2.4, 4.91, 34.233, 78.257, 98.5567437};
         string[] vocal = {"Nina Simone (f)", "Killer Mike (m)", "El Producto (m)", "Lauren Mayberry (f)", "Gonjasufi (m)", "KiloWatts (m)"};
-        int mCounter = 0;
-        int fCounter = 0;
+
 
         public Form1()
         {
@@ -79,7 +78,6 @@ namespace Stuff
         // Q7
         private void button4_Click(object sender, EventArgs e)
         {
-            //int[] q7 = new int[5];
             int[] q7 = {1, 4, 23, 98, 172};
             for (int i = 0; i < q7.Length; i++) {
                 MessageBox.Show(q7[i].ToString());
@@ -125,6 +123,8 @@ namespace Stuff
         // Q12
         private void button9_Click(object sender, EventArgs e)
         {
+            int mCounter = 0;
+            int fCounter = 0;
             foreach (string v in vocal) { 
                 int i = 0;
                 while (v[i] != '(') {
