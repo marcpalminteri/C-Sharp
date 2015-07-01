@@ -19,16 +19,7 @@ namespace CourseBooking
             string date;
             string price;
             string seats;
-            label1.Text = list.Text;
-            int[] amount;
-
-
-            for (int i = 0; i < text.Capacity; i++){
-
-
-            }
-
-            
+            label1.Text = list.Text;          
 
             for (int i = 0; i < text.Capacity; i = i + 4)
             {
