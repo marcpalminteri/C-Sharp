@@ -13,9 +13,9 @@ namespace CourseBooking
 {
     public partial class Form1 : Form
     {
-        string[] text;
+        List<string> text = new List<string>();
+        List<string> names = new List<string>();        
         List<string> textLinesList = new List<string>();
-        List<string> names = new List<string>();
 
         public Form1()
         {
@@ -31,14 +31,14 @@ namespace CourseBooking
 
             if (myDialog.ShowDialog() == DialogResult.OK) { 
                 //text = File.ReadAllLines(@"C:\Users\blue6\Desktop\save.txt");
-                text = File.ReadAllLines(myDialog.FileName);
+                text = File.ReadAllLines(myDialog.FileName).ToList();
 
-                for (int i = 0; i < text.Length; i++)
+                for (int i = 0; i < text.Capacity; i++)
                 {
                     text[i] = text[i].Trim('"');
                 }
 
-                for (int i = 0; i < text.Length; i = i + 4)
+                for (int i = 0; i < text.Capacity; i = i + 4)
                 {
                     names.Add(text[i]);
                 }
@@ -66,11 +66,11 @@ namespace CourseBooking
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        public void button2_Click(object sender, EventArgs e)
         {
             if (text != null)
             {
-                AddCourse newCourse = new AddCourse(text);
+                AddCourse newCourse = new AddCourse(text, listBox1);
                 newCourse.Show();
             }
             else

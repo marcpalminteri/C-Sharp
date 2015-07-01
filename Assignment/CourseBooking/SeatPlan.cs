@@ -11,8 +11,8 @@ using System.Windows.Forms;
 namespace CourseBooking
 {
     public partial class SeatPlan : Form
-    {   
-        public SeatPlan(string[] text, ListBox list, List<string> names)
+    {
+        public SeatPlan(List<string> text, ListBox list, List<string> names)
         {
             InitializeComponent();
 
@@ -20,10 +20,20 @@ namespace CourseBooking
             string price;
             string seats;
             label1.Text = list.Text;
-           
-            for (int i = 0; i < text.Length; i = i + 4 )
+            int[] amount;
+
+
+            for (int i = 0; i < text.Capacity; i++){
+
+
+            }
+
+            
+
+            for (int i = 0; i < text.Capacity; i = i + 4)
             {
-                if (text[i] == label1.Text) {
+                if (text[i] == label1.Text)
+                {
                     int j = i;
                     date = text[j + 1];
                     price = text[j + 2];

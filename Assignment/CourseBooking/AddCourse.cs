@@ -12,16 +12,26 @@ namespace CourseBooking
 {
     public partial class AddCourse : Form
     {
-        public AddCourse(string[] courseText)
+        List<string> courseText = new List<string>();
+        ListBox list;
+
+        public AddCourse(List<string> courseText, ListBox list)
         {
             InitializeComponent();
+            this.courseText = courseText;
+            this.list = list;
         }
-
-        //int i = courseText.Length;
         
-        private void button1_Click(object sender, EventArgs e)
-        {
+        private void button1_Click(object sender, EventArgs e){            
+            courseText.Add(textBox1.Text);
+            courseText.Add(textBox2.Text);
+            courseText.Add(textBox3.Text);
+            courseText.Add("FFFFFFFFFFFF");
 
+            var message = string.Join(Environment.NewLine, courseText.ToArray());
+            MessageBox.Show(message);
+            
+            this.Close();
         }
-    }
+    } 
 }
