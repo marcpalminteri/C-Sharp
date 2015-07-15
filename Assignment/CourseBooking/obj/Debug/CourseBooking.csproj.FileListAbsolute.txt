@@ -19,3 +19,6 @@ C:\Users\blue9\Documents\vsprojects\Csharp-Basics\Assignment\CourseBooking\obj\D
 C:\Users\blue9\Documents\vsprojects\Csharp-Basics\Assignment\CourseBooking\obj\Debug\CourseBooking.SeatPlan.resources
 C:\Users\blue9\Documents\vsprojects\Csharp-Basics\Assignment\CourseBooking\obj\Debug\CourseBooking.csproj.GenerateResource.Cache
 C:\Users\blue9\Documents\vsprojects\Csharp-Basics\Assignment\CourseBooking\obj\Debug\CourseBooking.AddCourse.resources
+C:\Users\blue2.FASFG\Documents\vsprojects\Csharp-Basics\Assignment\CourseBooking\bin\Debug\CourseBooking.exe.config
+C:\Users\blue2.FASFG\Documents\vsprojects\Csharp-Basics\Assignment\CourseBooking\obj\Debug\CourseBooking.exe
+C:\Users\blue2.FASFG\Documents\vsprojects\Csharp-Basics\Assignment\CourseBooking\obj\Debug\CourseBooking.pdb
