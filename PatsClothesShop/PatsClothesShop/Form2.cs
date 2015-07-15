@@ -17,6 +17,7 @@ namespace PatsClothesShop
             InitializeComponent();
         }
 
+
         private void Form2_Load(object sender, EventArgs e)
         {
             customerTableAdapter1.Fill(pcsdbDataSet1.Customer);
