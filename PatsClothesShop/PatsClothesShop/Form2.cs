@@ -26,11 +26,8 @@ namespace PatsClothesShop
         private void button1_Click(object sender, EventArgs e)
         {
             bindingSource1.EndEdit();
-            customerTableAdapter1.Update(pcsdbDataSet1.Customer);
-
             int result = 0;
             result = customerTableAdapter1.Update(pcsdbDataSet1.Customer);
-
             MessageBox.Show(result.ToString());
         }
     }
