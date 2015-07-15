@@ -36,4 +36,4 @@ select Department_No, Last_Name, Annual_Salary from Employees where Hire_Date be
 select * from Jobs order by Job_ID desc;
 */
 --Q11
-select Annual_Salary from Employees where min(Annual_Salary);
+select Job_ID, count(Job_ID) as Thing from Employees group by Job_ID;

@@ -119,10 +119,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="PCSDB.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="PCSDB_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>PCSDB.mdf</DependentUpon>
     </Content>
   </ItemGroup>
