@@ -8,7 +8,7 @@ namespace Book6
 {
     class Player
     {
-        public string name;
+        string name;
         public int age;
         public string country;
   
