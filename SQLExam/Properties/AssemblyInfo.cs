@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CGDatabase2")]
+[assembly: AssemblyTitle("SQLExam")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CGDatabase2")]
+[assembly: AssemblyProduct("SQLExam")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9791c303-65d4-42b5-bca2-d63e7eba2783")]
+[assembly: Guid("85d93538-d356-454c-aeed-2e1782f46d03")]
 
 // Version information for an assembly consists of the following four values:
 //
