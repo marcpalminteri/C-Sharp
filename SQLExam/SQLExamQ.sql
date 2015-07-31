@@ -50,7 +50,7 @@ DELETE FROM Job_History WHERE Employee_No = 102;
 SELECT * FROM Job_History;*/
 
 --Q16
-SELECT Employee_No,
+/*SELECT Employee_No,
     CASE WHEN Department_No IN (10, 20) THEN CONCAT(5,'%')
 		 WHEN Department_No IN (50, 80, 90, 110) THEN CONCAT(10,'%')
 		 ELSE CONCAT(0,'%') END AS Raise,
@@ -58,5 +58,16 @@ Annual_Salary AS Old_Salary,
 Annual_Salary*
    (CASE WHEN Department_No IN (10, 20) THEN 1.05
 		 WHEN Department_No IN (50, 80, 90, 110) THEN 1.1
-		 ELSE 1 END) AS New_Salary FROM Employees;
+		 ELSE 1 END) AS New_Salary FROM Employees;*/
 
+--Q17
+--CREATE VIEW ManagerView AS (SELECT * FROM Employees WHERE Job_ID LIKE '%MGR');
+
+--Q18
+--SELECT * FROM ManagerView ORDER BY Employee_No ASC;
+
+--Q19
+--GRANT SELECT ON ManagerView to PUBLIC;
+
+--Q20
+--CREATE INDEX LOC_POSTAL_CODE ON Locations(Postal_Code);
