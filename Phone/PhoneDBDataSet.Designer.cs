@@ -905,8 +905,8 @@ SELECT ProductCode, Description, Price, FreeInsurance FROM Phone WHERE (ProductC
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[1].Connection = this.Connection;
-            this._commandCollection[1].CommandText = "SELECT        ProductCode, Description, Price, FreeInsurance\r\nFROM            Pho" +
-                "ne\r\nWHERE        Price = @txbxValue";
+            this._commandCollection[1].CommandText = "SELECT        ProductCode, Description, Price, FreeInsurance\r\nFROM          Phone" +
+                "\r\nWHERE      Price = @txbxValue";
             this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@txbxValue", global::System.Data.SqlDbType.Decimal, 9, global::System.Data.ParameterDirection.Input, 18, 2, "Price", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
