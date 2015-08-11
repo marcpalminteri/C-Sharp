@@ -34,8 +34,8 @@ namespace Phone
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            this.phoneBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.phoneDBDataSet);
+            //this.phoneBindingSource.EndEdit();
+            //this.tableAdapterManager.UpdateAll(this.phoneDBDataSet);
         }
 
         private void btnAdd_Click(object sender, EventArgs e)

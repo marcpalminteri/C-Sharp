@@ -30,7 +30,7 @@ namespace Phone
 
         private void btnRun_Click(object sender, EventArgs e)
         {
-            this.phoneTableAdapter.SearchQuery(this.phoneDBDataSet.Phone, decimal.Parse(txbxValue.Text));
+            //this.phoneTableAdapter.SearchQuery(this.phoneDBDataSet.Phone, decimal.Parse(txbxValue.Text));
             //this.phoneTableAdapter.SearchQuery(this.phoneDBDataSet.Phone, this.cboField.SelectedItem, this.cboOperator.SelectedItem, decimal.Parse(txbxValue.Text));
         }
     }
