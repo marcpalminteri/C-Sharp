@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Phone
 {
@@ -16,6 +17,8 @@ namespace Phone
         {
             InitializeComponent();
         }
+
+        SqlConnection myConnection = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\blue2.FASFG\Documents\vsprojects\Csharp-Basics\Phone\PhoneDB.mdf;Integrated Security=True");
 
         private void frmSearch_Load(object sender, EventArgs e)
         {
@@ -30,8 +33,20 @@ namespace Phone
 
         private void btnRun_Click(object sender, EventArgs e)
         {
-            //this.phoneTableAdapter.SearchQuery(this.phoneDBDataSet.Phone, decimal.Parse(txbxValue.Text));
-            //this.phoneTableAdapter.SearchQuery(this.phoneDBDataSet.Phone, this.cboField.SelectedItem, this.cboOperator.SelectedItem, decimal.Parse(txbxValue.Text));
+            try
+            {
+                myConnection.Open();
+                MessageBox.Show("Connection");
+            }
+            catch (Exception) {
+                MessageBox.Show("Error");
+            }
+
+            SqlCommand myCommand = new SqlCommand("SELECT ProductCode, Description, Price, FreeInsurance FROM dbo.Phone WHERE " + cboField.SelectedItem + " " + cboOperator.SelectedItem + " " + txbxValue.Text, myConnection);
+
+
+
+            MessageBox.Show("SELECT ProductCode, Description, Price, FreeInsurance FROM dbo.Phone WHERE " + cboField.SelectedItem + " " + cboOperator.SelectedItem + " " + txbxValue.Text);
         }
     }
 }
